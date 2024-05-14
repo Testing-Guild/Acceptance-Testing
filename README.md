@@ -341,3 +341,30 @@ In most cases, the optimal approach involves a strategic combination of both man
 
 * **Challenge:**  Ensuring compatibility between the testing environment and the software under test can be problematic.  Incompatibility issues can lead to unexpected behavior during testing and inaccurate test results.
 * **Mitigation:**   Meticulously replicate the production environment as closely as possible in the testing environment.  Thoroughly test the testing tools and configurations to ensure compatibility with the software and operating system.  Maintain a well-defined environment management process to track configurations and updates.
+
+## Example :
+**Scenario:**  Testing a simple to-do list application
+
+**Role:**  End-user
+
+**Test Case 1: Adding a To-Do Item**
+
+**Pre-Conditions:**
+
+* User is on the main to-do list page.
+* The to-do list is initially empty.
+
+**Steps:**
+
+1. User enters "Buy groceries" in the to-do item input field.
+2. User clicks the "Add" button.
+
+**Expected Outcome:**
+
+* A new to-do item "Buy groceries" is displayed in the to-do list.
+* The to-do list now contains one item.
+
+**Pass/Fail Criteria:**
+
+* The new item is displayed correctly on the list.
+* The to-do list counter reflects the accurate number of items (1).

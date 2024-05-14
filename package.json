@@ -1,5 +1,5 @@
 {
-  "name": "regression-testing",
+  "name": "acceptance-testing",
   "version": "1.0.0",
   "description": "Acceptance Testing ensures software meets user requirements. It validates functionality, usability, and compatibility. Users conduct tests to verify if the software is ready for deployment.",
   "main": "",
